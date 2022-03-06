@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Domine&family=Poppins&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/avatar.css");
+
+@import url("components/button.css");
+ 
+@import url("components/banner.css");
+
+@import url("components/card.css");
+
+body {
+	font-family: 'Domine', serif;
+	margin: 0px;
+	background-color: #ACB992
+}
+
+h1, h2, h3 {
+	font-family: 'Poppins', sans-serif;
+	color: #362706;
+}
+
+h3 {
+	display: inline;
+}
+
+a {
+	text-decoration: none;
+}
+
+#text-banner {
+	color: white;
+	animation: apparition 0.8s ease-out;
+}
+
+.margin-top {
+	margin-top: 80px;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {#
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
